@@ -1,4 +1,4 @@
-input_string = input("Enter a string of integers separated by spaces: ")
+input_string = input("Enter Values Separated by Spaces: ")
 input_list = input_string.split()
 for i in range(len(input_list)):
     input_list[i] = int(input_list[i])

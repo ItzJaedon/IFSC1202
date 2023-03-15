@@ -1,4 +1,4 @@
-input_str = input("Enter a string of integers separated by spaces: ")
+input_str = input("Enter Values Separated by Spaces: ")
 input_list = []
 current_num_str = ""
 for i in range(len(input_str)):
