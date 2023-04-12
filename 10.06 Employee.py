@@ -5,7 +5,6 @@ class Employee:
         self.IDNumber = id_number
         self.HoursWorked = hours_worked
         self.Wage = wage
-    
     def WeeklyPay(self):
         if self.HoursWorked <= 40:
             return self.HoursWorked * self.Wage
