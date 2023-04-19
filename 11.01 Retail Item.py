@@ -8,7 +8,7 @@ class RetailItem:
 def print_inventory(items):
     print(f"{'Description':<20} {'Units on Hand':<15} {'Price':<15} {'Inventory Value':<20}")
     for item in items:
-        print(f"{item.description:<20} {item.units_on_hand:<15} {item.price:<15} {item.inventory_value():<20.16}")
+        print(f"{item.description:<20} {item.units_on_hand:<15} {item.price:<15} {item.inventory_value():<20.2f}")
 def find_inventory(items, description):
     for i, item in enumerate(items):
         if item.description == description:
