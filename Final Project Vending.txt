@@ -1,0 +1,6 @@
+Coke 20 1.50
+Pepsi 20 1.50
+Sprite 20 1.50
+Water 20 1.00
+Tea 20 1.75
+Redbull 20 2.00
